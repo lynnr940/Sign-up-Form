@@ -31,12 +31,35 @@
         <h2>Let's do this!</h2>
 
         <form>
-          <label>First Name<input type="text" /></label>
-          <label>Last Name<input type="text" /></label>
-          <label>Email<input type="email" /></label>
-          <label>Phone Number<input type="tel" /></label>
-          <label>Password<input type="password" /></label>
-          <label>Confirm Password<input type="password" /></label>
+          <div class="form-left">
+            <div class="form-element">
+              <label for="firstname">First Name</label>
+              <input type="text" id="firstname" />
+            </div>
+            <div class="form-element">
+              <label for="email">Email</label>
+              <input type="email" id="email" />
+            </div>
+            <div class="form-element">
+              <label for="pass">Password</label>
+              <input type="password" id="pass" />
+            </div>
+          </div>
+
+          <div class="form-right">
+            <div class="form-element">
+              <label for="lastname">Last Name</label>
+              <input type="text" id="lastname" />
+            </div>
+            <div class="form-element">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" />
+            </div>
+            <div class="form-element">
+              <label for="confirm">Confirm Password</label>
+              <input type="password" id="confirm" />
+            </div>
+          </div>
         </form>
       </div>
     </div>
