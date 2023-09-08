@@ -3,12 +3,13 @@ body {
   align-items: center;
   justify-content: center;
   margin: 10vh 20vh 10vh 20vh;
+  background:rgb(55, 55, 55);
 }
 
-img {
+.cat-pic {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  
 }
 
 .content {
@@ -20,8 +21,69 @@ img {
 .form-image {
   width: 35%;
   height: 100%;
+  position:relative;
+  top: 0;
+  left: 0;
 }
-.form-container{
-    height:100%;
-    width:65%;
+.form-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  height: 100%;
+  width: 65%;
+  background: rgb(255, 246, 53);
+  background: linear-gradient(
+    6deg,
+    rgba(255, 246, 53, 1) 0%,
+    rgba(255, 249, 173, 1) 51%,
+    rgba(120, 255, 7, 1) 100%
+  );
+}
+#formheader {
+  text-align: center;
+  margin: 20px;
+  margin-top: 20%;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 40px;
+}
+.cat-pic {
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    
+}
+.odin-pic {
+    position: absolute;
+    top: 2%;
+    width:100%;
+    height:15%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#odinlogo {
+    height:80%;
+}
+
+#odintext {
+     text-align: center;
+     margin-left:10px;
+     font-family: "Titillium Web", sans-serif;
+     font-size: 4em;
+     font-weight: 900;
+}
+
+h2 {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 32px;
+}
+
+form {
+    display:flex;
+    flex-wrap: wrap;
+    gap:25%;
+    height:30%;
+    justify-content: center;
 }
