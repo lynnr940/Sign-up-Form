@@ -1,3 +1,27 @@
 body {
-    color:green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10vh 20vh 10vh 20vh;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  height: 75vh;
+  width: 75vw;
+  margin: auto;
+}
+.form-image {
+  width: 35%;
+  height: 100%;
+}
+.form-container{
+    height:100%;
+    width:65%;
 }
