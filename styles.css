@@ -41,7 +41,7 @@ body {
 #formheader {
   text-align: center;
   margin: 20px;
-  margin-top: 20%;
+  margin-top: 12%;
   font-family: "Titillium Web", sans-serif;
   font-size: 40px;
 }
@@ -95,4 +95,37 @@ form {
 .form-element{
     display:flex;
     flex-direction: column;
+}
+
+
+label {
+  font-size: 20px;
+  font-family: "Titillium Web", sans-serif;
+  letter-spacing: 6px;
+  margin-left: 8px;
+}
+
+
+input { 
+height:26px;
+border-radius: 5px;
+border-width: 1px;
+border-color: rgb(176, 176, 176);
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, .2);
+margin-bottom: 24px;
+}
+
+button {
+  border-radius: 5px;
+  margin-top: 06%;
+  margin-right: 60%;
+  background-color: #064789;
+  width:240px;
+  height:60px;
+  color:white;
+  font-family:"Titillium Web", sans-serif;
+ font-weight: 800;
+ letter-spacing: 2px;
+ font-size:25px;
+  
 }
